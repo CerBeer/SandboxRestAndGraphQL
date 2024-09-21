@@ -2,7 +2,19 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+First, rename .env.local.example to .env.local and fill it:
+
+```bash
+NEXT_PUBLIC_FB_API_KEY=
+NEXT_PUBLIC_FB_AUTH_DOMAIN=
+NEXT_PUBLIC_FB_PROJECT_ID=
+NEXT_PUBLIC_FB_STORAGE_BUCKET=
+NEXT_PUBLIC_FB_MESSAGING_SENDER_ID=
+NEXT_PUBLIC_FB_APP_ID=
+NEXT_PUBLIC_FB_MEASUREMENT_ID=
+```
+
+Then run the development server:
 
 ```bash
 npm run dev
